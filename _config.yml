@@ -24,7 +24,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: thevruk
+title: THEVRUK
 email: kkang32@gmail.com
 author: kkang32
 copyright: Copyright © 2021
@@ -93,7 +93,7 @@ yat:
 # spacegrey: #353535
 # snowwhite: #ffffff
 #
-# theme_color: snowwhite
+theme_color: coolblack
 #
 # Custom color as below:
 # theme_color: "#882250"
