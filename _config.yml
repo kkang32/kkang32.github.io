@@ -93,7 +93,7 @@ yat:
 # spacegrey: #353535
 # snowwhite: #ffffff
 #
-theme_color: coolblack
+theme_color: spacegrey
 #
 # Custom color as below:
 # theme_color: "#882250"
@@ -121,12 +121,12 @@ theme_color: coolblack
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-header_pages:
-    - about.md
-    - index.html    
+#header_pages:
+#    - index.html
 #   - archives.html
 #   - categories.html
 #   - tags.html
+#    - about.md
 
 # Page default value
 defaults:
