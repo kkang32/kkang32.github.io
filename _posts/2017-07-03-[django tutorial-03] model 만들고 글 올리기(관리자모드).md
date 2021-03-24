@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [django tutorial-03] model 만들고 글 올리기(관리자모드)
+title: django tutorial-03 model 만들고 글 올리기(관리자모드)
 categories: python django
 tags: python django
 ---

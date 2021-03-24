@@ -1,13 +1,12 @@
 ---
 layout: post
-title: [django tutorial-04] view 단 작업하기
+title: django tutorial-04 view 단 작업하기
 categories: python django
 tags: python django
 ---
 
 # [django tutorial-04] view 단 작업하기
 
-2017년 7월 3일 [kkang32](http://www.thevruk.com/?author=1) [의견 작성하기](http://www.thevruk.com/?p=260#respond)
 
 앞서는 관리자페이지에서 글을 보고 작성했는데 이제는 별도의 view파일을 만들어 그곳에서 작업하고자 한다. 그에 따라서 url 지정도 함께 해준다.
 
