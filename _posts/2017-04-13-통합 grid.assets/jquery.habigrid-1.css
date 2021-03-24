@@ -1,0 +1,156 @@
+
+.hbgrid-table{
+	border-collapse:collapse;
+	border-spacing:0px 0px;
+	border:1px solid #787F85;
+}
+
+.hbgrid-table thead tr th{
+	background:#D1E4F0;
+	text-align:center;	
+	height:30px;
+	border:1px solid #B0CFE4;
+	border-top-color:#787F85;
+	border-collapse:collapse;
+	border-spacing:0px 0px;
+	border-style: inset;
+	border-bottom-color:#9BB6C8;
+	color:#000000;
+	
+	
+}
+
+
+.hbgrid-controll ul{
+	list-style: none;
+}
+
+.hbgrid-controll div{
+	float:left;
+}
+
+.hbgrid-controll{
+	width:500px
+}
+.hbgrid-keyword-layer{
+	position:absolute;
+	background:#d2d2d2;
+	padding:10px;
+	z-index:10;
+	border:1px solid #212121
+}
+.hbgrid-order{
+	cursor: pointer;
+}
+.hbgrid-table thead tr th:first-child{
+	border-left-color:#787F85;
+}
+.hbgrid-table thead tr th:last-child{
+	border-right-color:#787F85;
+}
+
+
+
+
+.hbgrid-table tbody tr td{
+	background:#ffffff;
+	text-align:left;
+	padding-left:5px;
+	height:30px;
+	border:1px solid #B0CFE4;
+	border-top-color:#787F85;
+	border-collapse:collapse;
+	border-spacing:0px 0px;
+	border-style: inset;
+	border-bottom-color:#E2E2E2;
+	border-right-color:#E2E2E2;
+	color:#000000;
+	
+	
+	
+}
+
+.hbgrid-table tbody tr td:first-child{
+	text-align:center;
+	padding-left:0px;
+	background:#52B0EB;
+	border-bottom-color:#62BAF5;
+	border-right-color:#1C92E1
+}
+.hbgrid-table tbody tr td:last-child{
+}
+
+.hbgrid-table-container{
+	overflow : auto;
+}
+
+.hbgrid-table-clone-header{
+	
+}
+
+.hbgrid-table-clone-left{
+	
+}
+
+.hbgrid-pager-container{
+	text-align:center;
+	margin-top:20px;
+	position:absolute;
+	left:50%;
+	transform: translate(-50%, -50%);
+	}
+
+.hbgrid-pagecont{ 
+	margin: 0 auto;
+	display: inline-block;
+    padding-left: 0;    
+    border-radius: 4px;}
+    
+.hbgrid-pageNum{ display:inline ;box-sizing: border-box; text-align:center}
+
+.hbgrid-pageNum > a{ 
+	padding: 5px 10px;
+    font-size: 12px;
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;}
+    
+.hbgrid-active {
+ 	color: #fff !important;
+    cursor: default !important;
+    background-color: #337ab7 !important;
+    border-color: #337ab7 !important;}
+ 
+.hbgrid-colsizer-container{	
+    position: absolute;
+    top: 0px;
+}
+   
+.hbgrid-colsizer{
+	margin-left: -5px;
+    position: absolute;
+    z-index: 5;
+    width: 10px;
+    height: 100%;
+    cursor: e-resize;
+    top: 0px;
+    table-layout: fixed;
+}
+
+
+
+/****checkbox style*/
+.checkbox-style {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #bcbcbc;
+  cursor: pointer;
+  background:#000000; 
+}
