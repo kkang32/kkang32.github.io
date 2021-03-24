@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Project] 영상처리 – OpenCV 01
+title: Project 영상처리 – OpenCV 01
 categories: android opencv
 tags: android opencv
 ---

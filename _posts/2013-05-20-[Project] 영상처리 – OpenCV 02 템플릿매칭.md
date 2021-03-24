@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Project] 영상처리 – OpenCV 02 <템플릿매칭>
+title: Project 영상처리 – OpenCV 02 템플릿매칭
 categories: android opencv
 tags: android opencv
 ---
