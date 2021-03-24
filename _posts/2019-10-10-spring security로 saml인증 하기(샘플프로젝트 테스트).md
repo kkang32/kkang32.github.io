@@ -4,16 +4,16 @@
 
 ### 사전 작업
 
-###### IdP서비스 가입
+##### IdP서비스 가입
 
 IdP서버로 테스트할 ssocircle사이트에 가입한다.
 https://idp.ssocircle.com/sso/UI/Login 에 접속하여 new user로 사용자 등록을 한뒤 이메일로 인증을 수행한다.
 
-###### 소스는 아래 주소에 있는 소스를 기준으로한다. https://github.com/spring-projects/spring-security-saml/tree/1.0.8.RELEASE
+##### 소스는 아래 주소에 있는 소스를 기준으로한다. https://github.com/spring-projects/spring-security-saml/tree/1.0.8.RELEASE
 
 ### SP <-> IdP간 인증작업
 
-###### 1. securityContext.xml수정
+##### 1. securityContext.xml수정
 
 ```xml
 <bean id="metadataGeneratorFilter" class="org.springframework.security.saml.metadata.MetadataGeneratorFilter" >
@@ -33,7 +33,7 @@ https://idp.ssocircle.com/sso/UI/Login 에 접속하여 new user로 사용자 �
 
 
 
-###### 2. 인증서 생성
+##### 2. 인증서 생성
 
 sampleKeystore.jks파일이 있는곳으로 이동한다.(spring-security-saml-master\spring-security-saml-master\sample\src\main\resources\security)
 
@@ -49,11 +49,11 @@ e.g.
 
 1. keytool.exe -list -keystore samlKeystore.jks -v -alias samlkey
 
-###### 3. IdP 의 인증서를 SP key store에 등록한다.
+##### 3. IdP 의 인증서를 SP key store에 등록한다.
 
 인증을 시도할 사이트인 ssocircle사이트에서 아래와 같이 서명 부분을 복사해서 인증서 파일로 만든다.(https://www.ssocircle.com/en/idp-tips-tricks/public-idp-configuration/)
 
-![img](../assets/images/2019-10-10-spring security로 saml인증 하기(샘플프로젝트 테스트).assets/cert.png)
+![img](/assets/images/2019-10-10-spring security로 saml인증 하기(샘플프로젝트 테스트).assets/cert.png)
 
 이후 samlKeystore.jks파일이 있는 곳으로 가서 인증서를 import시킨다.
 
@@ -61,7 +61,7 @@ e.g.
 
 3. keytool -importcert -keystore samlKeystore.jks -storepass nalle123 -alias ssocircle -file ssocircle.crt
 
-###### 4. SP 메타데이터생성
+##### 4. SP 메타데이터생성
 
 sample프로젝트를 구동시켜 SP메타데이터를 얻는다. 구동시 SSL관련 문제로 xsd파일을 못읽어오는 현상이 발생하게되면 해당 파일의 주소를 https에서 http로 변경해보면 된다.
 ssocircle주소도 https에서 http로 변경하면 정상적으로 구동이 된다.
@@ -69,7 +69,7 @@ ssocircle주소도 https에서 http로 변경하면 정상적으로 구동이 �
 e.g. http://localhost:8080/spring-security-saml2-sample/saml/metadata
 다운받아진 메타 데이터에서 AttributeConsumingService, RequestedAttribute 등으로 IdP로 부터 추가 요청사항을 추가할 수 도 있다.(IdP에서 제공해 줄 경우)
 
-###### 5. 만들어진 메타데이터를 IdP에 등록한다.
+##### 5. 만들어진 메타데이터를 IdP에 등록한다.
 
 ssocircle사이트의 Manage Metadata나 https://idp.ssocircle.com/sso/hos/ManageSPMetadata.jsp 에 접속하여 Add new Service Provider 항목을 클릭하여 SP를 등록한다.
 입력시 FQDN과 entityID 를 정확히 확인한다.
@@ -77,11 +77,11 @@ FQDN의 경우 도메인의 full 경로를 나타낸다. 가령 www.google.com, 
 entityID의 경우 유니크 해야 한다. 구분자로서 사용되기 때문에 예제로 생성된 localhost:8080등은 에러가 발생하며 등록되지 않으니 다른구분자로 등록한다.(도메인 주소가 아니여도 좋다)
 entityID는 메타데이터 생성 후 수정하게되면 정상적으로 동작하지 않고 설정파일에서 수정 후 구동시킨다음 생성해야 한다.
 
-###### 6. 확인
+##### 6. 확인
 
 http://localhost:8080으로 접속하면(context-path가 / 로 설정되어있다는 가정하에) 바로 ssocircle화면으로 redirect되는것을 확인할 수 있다.여기서 로그인을 하게 되면 아래와 같이 인증이 성공했음을 알리고 최초 요청한 페이지로 이동 한다.
 
-![img](../assets/images/2019-10-10-spring security로 saml인증 하기(샘플프로젝트 테스트).assets/auth.png)
+![img](/assets/images/2019-10-10-spring security로 saml인증 하기(샘플프로젝트 테스트).assets/auth.png)
 
 http://localhost:8080 으로 넘어가게 되고 아래와 같이 인증 정보가 표시되는 메인페이지가 나타나면 성공이다.
 
