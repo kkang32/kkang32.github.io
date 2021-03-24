@@ -1,3 +1,10 @@
+---
+layout: post
+title: [django tutorial-02] it worked! 띄우기
+categories: python django
+tags: python django
+---
+
 # [django tutorial-02] it worked! 띄우기
 
 

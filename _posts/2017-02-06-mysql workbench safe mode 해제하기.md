@@ -1,3 +1,10 @@
+---
+layout: post
+title: mysql workbench safe mode 해제하기
+categories: mysql
+tags: mysql
+--
+
 # mysql workbench safe mode 해제하기
 
 

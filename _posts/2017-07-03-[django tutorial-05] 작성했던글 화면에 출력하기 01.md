@@ -1,3 +1,10 @@
+---
+layout: post
+title: [django tutorial-05] 작성했던글 화면에 출력하기 01
+categories: python django
+tags: python django
+---
+
 # [django tutorial-05] 작성했던글 화면에 출력하기 01
 
 

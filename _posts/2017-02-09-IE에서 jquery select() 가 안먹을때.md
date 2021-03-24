@@ -1,3 +1,10 @@
+---
+layout: post
+title: IE에서 jquery select() 가 안먹을때
+categories: jquery
+tags: jquery
+--
+
 # IE에서 jquery select() 가 안먹을때
 
 

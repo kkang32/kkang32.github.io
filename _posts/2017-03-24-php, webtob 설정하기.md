@@ -1,3 +1,10 @@
+---
+layout: post
+title: php, webtob 설정하기
+categories: php webtob
+tags: php webtob
+--
+
 # php, webtob 설정하기
 
 

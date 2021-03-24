@@ -1,3 +1,10 @@
+---
+layout: post
+title: [django tutorial-04] view 단 작업하기
+categories: python django
+tags: python django
+---
+
 # [django tutorial-04] view 단 작업하기
 
 2017년 7월 3일 [kkang32](http://www.thevruk.com/?author=1) [의견 작성하기](http://www.thevruk.com/?p=260#respond)

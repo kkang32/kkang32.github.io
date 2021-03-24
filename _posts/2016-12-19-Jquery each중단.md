@@ -1,3 +1,10 @@
+---
+layout: post
+title: Jquery each중단
+categories: jquery
+tags: jquery
+---
+
 # Jquery each중단
 
  

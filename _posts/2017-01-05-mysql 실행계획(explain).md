@@ -1,3 +1,10 @@
+---
+layout: post
+title: mysql 실행계획(explain)
+categories: mysql
+tags: mysql
+---
+
 # mysql 실행계획(explain)
 
 

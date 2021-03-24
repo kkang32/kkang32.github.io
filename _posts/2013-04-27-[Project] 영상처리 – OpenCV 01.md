@@ -1,3 +1,10 @@
+---
+layout: post
+title: [Project] 영상처리 – OpenCV 01
+categories: android opencv
+tags: android opencv
+---
+
 # [Project] 영상처리 – OpenCV 01
 
 핸드폰을 자동차에 얹을 예정입니다. 핸드폰은 바닥에 있는 표식을 읽어서 방향을 틀거나 전진하거나 후진할 것입니다.

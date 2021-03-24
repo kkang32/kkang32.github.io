@@ -1,3 +1,10 @@
+---
+layout: post
+title: git + maven + cargo 를 이용한 빌드 및 배포(1) – centos 에 maven 설치
+categories: git maven
+tags: git maven
+--
+
 # git + maven + cargo 를 이용한 빌드 및 배포(1) – centos 에 maven 설치
 
 

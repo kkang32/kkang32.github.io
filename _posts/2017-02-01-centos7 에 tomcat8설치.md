@@ -1,3 +1,10 @@
+---
+layout: post
+title: centos7 에 tomcat8설치
+categories: centos tomcat
+tags: centos tomcat
+---
+
 # centos7 에 tomcat8설치
 
 

@@ -1,3 +1,10 @@
+---
+layout: post
+title: [Project] 영상처리 – OpenCV 02 <템플릿매칭>
+categories: android opencv
+tags: android opencv
+---
+
 # [Project] 영상처리 – OpenCV 02 <템플릿매칭>
 
 에.. 속도가 좀 많이 느리긴한데..

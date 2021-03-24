@@ -1,3 +1,10 @@
+---
+layout: post
+title: Autowired
+categories: spring
+tags: spring
+--
+
 # Autowired
 
 

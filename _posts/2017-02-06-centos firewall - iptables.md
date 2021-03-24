@@ -1,3 +1,10 @@
+---
+layout: post
+title: centos firewall -> iptables
+categories: centos
+tags: centos
+--
+
 # centos firewall -> iptables
 
 

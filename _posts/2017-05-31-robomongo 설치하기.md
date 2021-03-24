@@ -1,3 +1,10 @@
+---
+layout: post
+title: robomongo 설치하기
+categories: centos mongodb
+tags: centos mongodb
+--
+
 # robomongo 설치하기
 
 

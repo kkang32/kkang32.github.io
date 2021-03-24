@@ -1,3 +1,10 @@
+---
+layout: post
+title: [django tutorial-01] centos7에 python설치하기, Django설치
+categories: python django
+tags: python django
+--
+
 # [django tutorial-01] centos7에 python설치하기, Django설치
 
 

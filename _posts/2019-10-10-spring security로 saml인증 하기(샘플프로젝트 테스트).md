@@ -1,6 +1,12 @@
-# spring security로 saml인증 하기(샘플프로젝트 테스트)
+---
+layout: post
+title: spring security로 saml인증 하기(샘플프로젝트 테스트)
+categories: java spring springsecurity saml
+tags: java spring springsecurity saml
+---
 
-2019년 10월 10일 [kkang32](http://www.thevruk.com/?author=1) [의견 작성하기](http://www.thevruk.com/?p=331#respond)
+
+# spring security로 saml인증 하기(샘플프로젝트 테스트)
 
 ### 사전 작업
 

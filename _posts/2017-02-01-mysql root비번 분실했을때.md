@@ -1,3 +1,10 @@
+---
+layout: post
+title: mysql root비번 분실했을때
+categories: mysql
+tags: mysql
+--
+
 # mysql root비번 분실했을때
 
 

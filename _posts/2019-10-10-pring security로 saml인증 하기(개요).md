@@ -1,4 +1,11 @@
-# pring security로 saml인증 하기(개요)
+---
+layout: post
+title: spring security로 saml인증 하기(개요)
+categories: java spring springsecurity saml
+tags: java spring springsecurity saml
+---
+
+# spring security로 saml인증 하기(개요)
 
 2019년 10월 10일 [kkang32](http://www.thevruk.com/?author=1) [의견 작성하기](http://www.thevruk.com/?p=317#respond)
 

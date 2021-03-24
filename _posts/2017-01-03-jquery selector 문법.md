@@ -1,3 +1,10 @@
+---
+layout: post
+title: jquery selector 문법
+categories: jquery
+tags: jquery
+---
+
 # jquery selector 문법
 
 퍼왔음…

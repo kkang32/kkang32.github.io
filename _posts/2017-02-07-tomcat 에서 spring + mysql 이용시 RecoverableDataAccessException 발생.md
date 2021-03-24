@@ -1,3 +1,11 @@
+---
+layout: post
+title: tomcat 에서 spring + mysql 이용시 RecoverableDataAccessException 발생
+categories: spring
+tags: spring
+--
+
+
 # tomcat 에서 spring + mysql 이용시 RecoverableDataAccessException 발생
 
 

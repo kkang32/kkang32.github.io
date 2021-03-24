@@ -1,3 +1,10 @@
+---
+layout: post
+title: centos redis설치
+categories: centos redis
+tags: centos redis
+--
+
 # centos redis설치
 
 

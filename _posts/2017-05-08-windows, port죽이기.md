@@ -1,3 +1,10 @@
+---
+layout: post
+title: windows, port죽이기
+categories: windows
+tags: windows
+--
+
 # windows, port죽이기
 
 

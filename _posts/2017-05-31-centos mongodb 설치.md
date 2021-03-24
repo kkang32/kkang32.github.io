@@ -1,3 +1,10 @@
+---
+layout: post
+title: centos mongodb 설치
+categories: centos mongodb
+tags: centos mongodb
+--
+
 # centos mongodb 설치
 
 

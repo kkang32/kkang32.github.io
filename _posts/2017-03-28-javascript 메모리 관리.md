@@ -1,3 +1,10 @@
+---
+layout: post
+title: javascript 메모리 관리
+categories: javascript
+tags: javascript
+--
+
 # javascript 메모리 관리
 
 

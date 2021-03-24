@@ -1,3 +1,10 @@
+---
+layout: post
+title: git + maven + cargo 를 이용한 빌드 및 배포(4) – 오류 및 구성간에 발생한 현상
+categories: git maven
+tags: git maven
+--
+
 # git + maven + cargo 를 이용한 빌드 및 배포(4) – 오류 및 구성간에 발생한 현상
 
 

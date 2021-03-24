@@ -1,3 +1,10 @@
+---
+layout: post
+title: timestamp 컬럼에서 default값 지정은 한 테이블에서 한컬럼만 지정가능
+categories: mysql
+tags: mysql
+---
+
 # timestamp 컬럼에서 default값 지정은 한 테이블에서 한컬럼만 지정가능
 
 

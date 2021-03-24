@@ -1,3 +1,10 @@
+---
+layout: post
+title: CentOS 7, Apache, tomcat 연동
+categories: CentOS apache tomcat
+tags: CentOS apache tomcat
+--
+
 # CentOS 7, Apache, tomcat 연동
 
 ```shell

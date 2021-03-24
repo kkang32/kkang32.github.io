@@ -1,3 +1,10 @@
+---
+layout: post
+title: CentOS 7, Apache, tomcat 연동시 403에러
+categories: centos apache tomcat
+tags: centos apache tomcat
+---
+
 # CentOS 7, Apache, tomcat 연동시 403에러
 
 

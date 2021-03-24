@@ -1,3 +1,10 @@
+---
+layout: post
+title: centos 에 apache + tomcat 연동시 connection 오류
+categories: CentOS apache tomcat
+tags: CentOS apache tomcat
+--
+
 # centos 에 apache + tomcat 연동시 connection 오류
 
 
