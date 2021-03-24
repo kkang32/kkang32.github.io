@@ -93,7 +93,7 @@ https://github.com/spring-projects/spring-security-saml (1.0.8 기준임(https:/
 
  
 
-![img](2019-10-10-pring security로 saml인증 하기(개요).assets/saml.png)
+![img](/assets/images/2019-10-10-pring security로 saml인증 하기(개요).assets/saml.png)
 
 Spring security의 FIRST필터에서 MetadataGenerator가 실행이 된다. 이 부분이 위 설명에서 언급한 프로비저닝 단계이다. SP 와 IdP간의 신뢰관계를 만드는 부분이다.
 
@@ -162,7 +162,7 @@ Spring security는 사용자의 요청을 DelegatingFilterProxy에서 가로채�
 여기에 설정된 필터들이 여러 필터들로 구성되어있어 filter chain으로 표현이 된다.
 아래는 filter chain에 대한 예시를 나타낸 그림이다.(https://atin.tistory.com/590)
 
-![img](2019-10-10-pring security로 saml인증 하기(개요).assets/filterchain.png)
+![img](/assets/images/2019-10-10-pring security로 saml인증 하기(개요).assets/filterchain.png)
 
 - 필터와 순서는 아래와 같다.(https://docs.spring.io/spring-security/site/docs/3.1.x/reference/ns-config.html)
 

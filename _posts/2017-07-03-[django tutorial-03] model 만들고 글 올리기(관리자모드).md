@@ -97,7 +97,7 @@ Superuser created successfully.
 
 
 http://접속IP(또는 도메인):8000/admin으로 접속 후 위에서 생성한 아이디 입력하면 아래와같은 화면이 나옴
-![img](2017-07-03-[django tutorial-03] model 만들고 글 올리기(관리자모드).assets/admin.png)
+![img](/assets/images/2017-07-03-[django tutorial-03] model 만들고 글 올리기(관리자모드).assets/admin.png)
 
  
 

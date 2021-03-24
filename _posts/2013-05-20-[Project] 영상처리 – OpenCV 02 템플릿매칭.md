@@ -6,7 +6,7 @@
 
 정확도가 좀 떨어지긴 합니다. 속도를 보니 답답해 미칠 지경입니다. 빨리 속도를 좀 올려봐야겠습니다..
 
-<video class="wp-video-shortcode" id="video-45-1" width="270" height="480" preload="metadata" src="2013-05-20-[Project] 영상처리 – OpenCV 02 템플릿매칭.assets/5a922d861480286cb0de91e515aa491a1291_gandr_480P_01.mp4?_=1" style="box-sizing: inherit; display: inline-block; font-family: Helvetica, Arial; max-width: 100%; width: 270px; height: 480px;"></video>
+<video class="wp-video-shortcode" id="video-45-1" width="270" height="480" preload="metadata" src="/assets/images/2013-05-20-[Project] 영상처리 – OpenCV 02 템플릿매칭.assets/5a922d861480286cb0de91e515aa491a1291_gandr_480P_01.mp4?_=1" style="box-sizing: inherit; display: inline-block; font-family: Helvetica, Arial; max-width: 100%; width: 270px; height: 480px;"></video>
 
 
 
