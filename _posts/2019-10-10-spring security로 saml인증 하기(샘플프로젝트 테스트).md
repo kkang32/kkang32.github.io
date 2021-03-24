@@ -53,13 +53,12 @@ e.g.
 
 인증을 시도할 사이트인 ssocircle사이트에서 아래와 같이 서명 부분을 복사해서 인증서 파일로 만든다.(https://www.ssocircle.com/en/idp-tips-tricks/public-idp-configuration/)
 
-![img](2019-10-10-spring security로 saml인증 하기(샘플프로젝트 테스트).assets/cert.png)
+![img](../assets/images/2019-10-10-spring security로 saml인증 하기(샘플프로젝트 테스트).assets/cert.png)
 
 이후 samlKeystore.jks파일이 있는 곳으로 가서 인증서를 import시킨다.
 
 1. keytool -importcert -keystore samlKeystore.jks -storepass [비밀번호] -alias [alias명] -file [인증서파일명]
 
-   
 3. keytool -importcert -keystore samlKeystore.jks -storepass nalle123 -alias ssocircle -file ssocircle.crt
 
 ###### 4. SP 메타데이터생성
@@ -82,7 +81,7 @@ entityID는 메타데이터 생성 후 수정하게되면 정상적으로 동작
 
 http://localhost:8080으로 접속하면(context-path가 / 로 설정되어있다는 가정하에) 바로 ssocircle화면으로 redirect되는것을 확인할 수 있다.여기서 로그인을 하게 되면 아래와 같이 인증이 성공했음을 알리고 최초 요청한 페이지로 이동 한다.
 
-![img](2019-10-10-spring security로 saml인증 하기(샘플프로젝트 테스트).assets/auth.png)
+![img](../assets/images/2019-10-10-spring security로 saml인증 하기(샘플프로젝트 테스트).assets/auth.png)
 
 http://localhost:8080 으로 넘어가게 되고 아래와 같이 인증 정보가 표시되는 메인페이지가 나타나면 성공이다.
 
