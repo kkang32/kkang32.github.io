@@ -61,7 +61,7 @@ tags: java spring springsecurity springwebflux
 
 - ReloadableFilterInvocationSecurityMetadataSource를 재사용하지못한다.(이하 파생 class들 모두 servlet을 사용하고 있음.)
   - 같은 역할을 하는 클래스를 새로 만든다.
-  -  tagLib는 webflux에서 사용되지 않으므로 해당 클래스를 재작성한다.
+  -  tagLib는 webflux에서 사용되지 않는다(jsp에서 동작하므로 서블릿 기반 기능임)
   
 
 
@@ -99,9 +99,9 @@ tags: java spring springsecurity springwebflux
 
 인증시 세션 고정공격 방어의 목적으로 세션값을 강제로 바꾼다.
 이전에는 옵션이었으나 무조건 변경하는것으로 바뀌었다.(WebSessionServerSecurityContextRepository)
-그래서 로그인로그와 메서드 추적이 연결이 되지 않는다............
+만약에 aop로 각 단계에 대해 계층정보를 기록하는 기능을 구현 했다면 아래의 내용을 고려해야 한다.
 
-메서드 추적시 기존 aop시 아래와 같이 동작 했었다.
+각 담당별  aop시 아래와 같이 동작 했었다.
 
 ------
 
