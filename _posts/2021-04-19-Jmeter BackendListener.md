@@ -53,7 +53,7 @@ tags: java jmeter
         }
     ```
 
-    ![image-20201130140935726](2021-04-19-Jmeter BackendListener.assets/image-20201130140935726.png)
+    ![image-20201130140935726](/assets/images/2021-04-19-Jmeter BackendListener.assets/image-20201130140935726.png)
 
 - **`public void setupTest(BackendListenerContext context)`**
 
@@ -83,9 +83,9 @@ tags: java jmeter
         }
     ```
 
-    ![image-20201130141516090](2021-04-19-Jmeter BackendListener.assets/image-20201130141516090.png)
+    ![image-20201130141516090](/assets/images/2021-04-19-Jmeter BackendListener.assets/image-20201130141516090.png)
 
-    ![image-20201130141532750](2021-04-19-Jmeter BackendListener.assets/image-20201130141532750.png)
+    ![image-20201130141532750](/assets/images/2021-04-19-Jmeter BackendListener.assets/image-20201130141532750.png)
 
 - **`public void handleSampleResults(List<SampleResult> listResult, BackendListenerContext context)`**
 
@@ -116,9 +116,9 @@ tags: java jmeter
     	}
     ```
 
-    ![image-20201130141830403](2021-04-19-Jmeter BackendListener.assets/image-20201130141830403.png)
+    ![image-20201130141830403](/assets/images/2021-04-19-Jmeter BackendListener.assets/image-20201130141830403.png)
 
-    ![image-20201130141737239](2021-04-19-Jmeter BackendListener.assets/image-20201130141737239.png)
+    ![image-20201130141737239](/assets/images/2021-04-19-Jmeter BackendListener.assets/image-20201130141737239.png)
 
 - **`public void teardownTest(BackendListenerContext context)`**
 
@@ -139,7 +139,7 @@ tags: java jmeter
         }
     ```
 
-    ![image-20201130143642978](2021-04-19-Jmeter BackendListener.assets/image-20201130143642978.png)
+    ![image-20201130143642978](/assets/images/2021-04-19-Jmeter BackendListener.assets/image-20201130143642978.png)
 
 - **`public SampleResult createSampleResult(BackendListenerContext context, SampleResult result)`**
 
@@ -169,7 +169,7 @@ tags: java jmeter
 
     
   
-    ![image-20201130143709594](2021-04-19-Jmeter BackendListener.assets/image-20201130143709594.png)
+    ![image-20201130143709594](/assets/images/2021-04-19-Jmeter BackendListener.assets/image-20201130143709594.png)
 
 ### 실행순서
 
