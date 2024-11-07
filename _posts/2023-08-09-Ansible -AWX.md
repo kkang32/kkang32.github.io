@@ -142,7 +142,8 @@ $ minikube start --driver=docker --force
 
 ## AWX 훑어 보기
 
-![1](/assets/images/2023-08-08-Ansible -AWX 를 이용한 서버 세팅 자동화.assets/1.png)
+![1](/assets/images/2023-08-08-Ansible-AWX.assets/1.png)
+![image-20201130141516090](/assets/images/2021-04-19-Jmeter BackendListener.assets/image-20201130141516090.png)
 
 ![2](/assets/images/2023-08-08-Ansible -AWX 를 이용한 서버 세팅 자동화.assets/2.png)
 
