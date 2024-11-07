@@ -1,3 +1,10 @@
+---
+layout: post
+title: Ansible - AWX
+categories: cloud
+tags: ansible cloud
+---
+
 # Ansible - AWX
 
 ## Ansible
@@ -143,36 +150,35 @@ $ minikube start --driver=docker --force
 ## AWX 훑어 보기
 
 ![1](/assets/images/2023-08-08-Ansible-AWX.assets/1.png)
-![image-20201130141516090](/assets/images/2021-04-19-Jmeter BackendListener.assets/image-20201130141516090.png)
 
-![2](/assets/images/2023-08-08-Ansible -AWX 를 이용한 서버 세팅 자동화.assets/2.png)
+![2](/assets/images/2023-08-08-Ansible-AWX.assets/2.png)
 
 ## 서버 구성 맛보기
 
 #### 프로젝트 등록
 
-![3](/assets/images/2023-08-08-Ansible -AWX 를 이용한 서버 세팅 자동화.assets/3.png)
+![3](/assets/images/2023-08-08-Ansible-AWX.assets/3.png)
 
-![4](/assets/images/2023-08-08-Ansible -AWX 를 이용한 서버 세팅 자동화.assets/4.png))
+![4](/assets/images/2023-08-08-Ansible-AWX.assets/4.png))
 
 ###### git 저장소
 
-![5](/assets/images/2023-08-08-Ansible -AWX 를 이용한 서버 세팅 자동화.assets/5.png)
+![5](/assets/images/2023-08-08-Ansible-AWX.assets/5.png)
 
 ###### 소스 동기화
 
-![6](/assets/images/2023-08-08-Ansible -AWX 를 이용한 서버 세팅 자동화.assets/6.png)
+![6](/assets/images/2023-08-08-Ansible-AWX.assets/6.png)
 
 #### 인증정보 등록
 
-![7](/assets/images/2023-08-08-Ansible -AWX 를 이용한 서버 세팅 자동화.assets/7.png)
+![7](/assets/images/2023-08-08-Ansible-AWX.assets/7.png)
 
 - github 인증정보 등록
 
   - https://github.com/settings/security -> Developer settings
-    ![8](/assets/images/2023-08-08-Ansible -AWX 를 이용한 서버 세팅 자동화.assets/8.png)
+    ![8](/assets/images/2023-08-08-Ansible-AWX.assets/8.png)
   - awx에 github 인증정보 등록
-    ![9](/assets/images/2023-08-08-Ansible -AWX 를 이용한 서버 세팅 자동화.assets/9.png)
+    ![9](/assets/images/2023-08-08-Ansible-AWX.assets/9.png)
 
 - SSH 키 등록(머신인증)
 
@@ -201,20 +207,20 @@ $ minikube start --driver=docker --force
   ```
 
   출력되는 값을 아래에 복사
-  ![10](/assets/images/2023-08-08-Ansible -AWX 를 이용한 서버 세팅 자동화.assets/10.png)
+  ![10](/assets/images/2023-08-08-Ansible-AWX.assets/10.png)
 
 #### 인벤토리 등록
 
-![11](/assets/images/2023-08-08-Ansible -AWX 를 이용한 서버 세팅 자동화.assets/11.png)
+![11](/assets/images/2023-08-08-Ansible-AWX.assets/11.png)
 
 - 호스트 등록
-  ![12](/assets/images/2023-08-08-Ansible -AWX 를 이용한 서버 세팅 자동화.assets/12.png)
+  ![12](/assets/images/2023-08-08-Ansible-AWX.assets/12.png)
 - 명령 실행(테스트)
-  ![13](/assets/images/2023-08-08-Ansible -AWX 를 이용한 서버 세팅 자동화.assets/13.png)
+  ![13](/assets/images/2023-08-08-Ansible-AWX.assets/13.png)
 
 #### 작업 템플릿 만들기
 
-![14](/assets/images/2023-08-08-Ansible -AWX 를 이용한 서버 세팅 자동화.assets/14.png)
+![14](/assets/images/2023-08-08-Ansible-AWX.assets/14.png)
 
 playbook 샘플
 
@@ -229,9 +235,9 @@ playbook 샘플
 
 - 프로젝트 -> `sample` -> 동기화
 - 템플릿 시작
-  ![15](/assets/images/2023-08-08-Ansible -AWX 를 이용한 서버 세팅 자동화.assets/15.png)
+  ![15](/assets/images/2023-08-08-Ansible-AWX.assets/15.png)
 
-![16](/assets/images/2023-08-08-Ansible -AWX 를 이용한 서버 세팅 자동화.assets/16.png)
+![16](/assets/images/2023-08-08-Ansible-AWX.assets/16.png)
 
 
 ## playbook 구조
@@ -263,7 +269,7 @@ playbook 샘플
         mode: 0755
 ```
 
-![17](/assets/images/2023-08-08-Ansible -AWX 를 이용한 서버 세팅 자동화.assets/17.png)
+![17](/assets/images/2023-08-08-Ansible-AWX.assets/17.png)
 
 #### 문법 맛보기
 
