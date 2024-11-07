@@ -161,11 +161,11 @@ $ minikube start --driver=docker --force
 
 ![4](/assets/images/2023-08-08-Ansible-AWX.assets/4.png))
 
-###### git 저장소
+##### git 저장소
 
 ![5](/assets/images/2023-08-08-Ansible-AWX.assets/5.png)
 
-###### 소스 동기화
+##### 소스 동기화
 
 ![6](/assets/images/2023-08-08-Ansible-AWX.assets/6.png)
 
